@@ -1,7 +1,7 @@
 Solarised
 ===============
 
-Solarised is a theme based of Naut for Reddit which uses the popular Solarized colour scheme. 
+Solarised is a theme based off Naut for Reddit which uses the popular Solarized colour scheme. 
 
 Naut
 ===============
