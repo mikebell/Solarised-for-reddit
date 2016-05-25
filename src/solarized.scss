@@ -1,0 +1,204 @@
+body {
+  background-color: #002b36;
+}
+
+body::before {
+  background-image: none;
+  background-color: #002b36;
+}
+
+.side {
+  background-color: #073642;
+}
+
+.link {
+  background-color: #073642;
+}
+
+p {
+  color: #839496;
+}
+
+.comment .author,.link .entry .tagline a.author {
+  color: #b58900;
+}
+
+.comment .score {
+  color: #2aa198;
+}
+
+.entry {
+  padding-left: 5px;
+}
+
+.link .entry {
+  border-bottom: none;
+}
+
+div.RES-keyNav-activeElement {
+  border-left: 2px solid #002b36;
+}
+
+.thing .title {
+  color: #268bd2 !important;
+}
+
+.res {
+  color: #839496;
+}
+
+.res .RESshortcutside, .res .RESDashboardToggle {
+  color: #839496;
+}
+
+.side #moderation_tools .title h1, .sidecontentbox .title h1 {
+  color: #839496;
+}
+
+.titlebox .tagline::after {
+  background-color: #002b36;
+}
+
+#header .pagename a {
+  color: #fdf6e3;
+}
+
+#header .tabmenu li a, #header .tabmenu li.selected a {
+  color: #fdf6e3;
+}
+
+span.score {
+  color: #93a1a1 !important;
+}
+
+.sidecontentbox .more a {
+  color: #839496;
+}
+
+.titlebox h1 a {
+  color: #859900;
+}
+
+a {
+  color: #268bd2;
+}
+
+a.author {
+  color: #d33682;
+}
+
+.morelink {
+  background-color: #073642;
+  color: #839496;
+}
+
+.morelink:hover a {
+  background-color: #2aa198;
+}
+
+.morelink:hover {
+  background-color: #2aa198;
+}
+
+.morelink::after {
+  background-color: #2aa198;
+}
+
+.submit-page #newlink.submit.content .tabmenu.formtab .selected a {
+  background-color: #cb4b16;
+  color: #fdf6e3;
+}
+
+.submit-page #newlink.submit.content .tabmenu.formtab {
+  background-color: #586e75;
+}
+
+.formtabs-content .roundfield {
+  background-color: #073642 !important;
+}
+
+.roundfield .title {
+  color: #93a1a1 !important;
+}
+
+.submit-page .infobar {
+  background-color: #073642;
+}
+
+.submit-page .infobar::before {
+  color: #93a1a1;
+}
+
+.submit-page #newlink.submit.content .tabmenu.formtab .selected a:hover {
+  background-color: #b58900;
+  color: #fdf6e3;
+}
+
+.submit-page #newlink.submit.content .tabmenu.formtab a {
+  background-color: #586e75;
+  color: #fdf6e3;
+}
+
+.submit-page #newlink.submit.content .tabmenu.formtab a:hover {
+  background-color: #b58900;
+  color: #fdf6e3;
+}
+
+.submit-page #newlink.submit.content .tabmenu.formtab a {
+  color: #fdf6e3;
+}
+
+.btn, button {
+  background-color: #859900 !important;
+}
+
+.content.submit .info-notice {
+  background-color: #073642;
+}
+
+.res .RESshortcutside:hover, .res .RESDashboardToggle:hover {
+  color: #839496 !important;
+}
+
+.arrow.down:hover::after {
+  background-color: #586e75;
+  color: #fdf6e3;
+}
+
+.link.last-clicked {
+  background-color: #073642;
+}
+
+.usertext {
+  background-color: #073642 !important;
+  color: #B3B3B3;
+}
+
+.panestack-title .title {
+  color: #B3B3B3 !important;
+}
+
+#REScommentNavToggle {
+  color: #B3B3B3;
+}
+
+.error {
+  color: #dc322f !important;
+}
+
+.linkinfo {
+  background-color: #073642 !important;
+  color: #B3B3B3;
+}
+
+.side .score {
+  color: #2aa198 !important;
+}
+
+.totalvotes {
+  color: #b58900;
+}
+
+.linefield {
+  background-color: #073642 !important;
+}
