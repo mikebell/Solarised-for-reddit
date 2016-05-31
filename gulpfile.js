@@ -4,16 +4,18 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var concat = require('gulp-concat');
+var del = require('del');
+var sequence = require('run-sequence');
 
 gulp.task('default', function() {
 
 });
 
 gulp.task('sass', function() {
-    gulp.src('./src/*.scss')
+    return gulp.src('./src/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass())
-        .pipe(sourcemaps.write())
+        // .pipe(sourcemaps.write())
         .pipe(gulp.dest('./src'))
 });
 
@@ -23,4 +25,17 @@ gulp.task('concat', function() {
     .pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('build', ['sass', 'concat'], function () {});
+gulp.task('clean', function() {
+  return del([
+    'dist/styles.css',
+    'src/solarized.css'
+  ]);
+});
+
+gulp.task('build', function (callback) {
+  sequence(
+    'clean',
+    'sass',
+    'concat'
+  )
+});
