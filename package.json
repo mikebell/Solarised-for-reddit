@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Stuff",
   "repository": "https://github.com/mikebell/solarized-for-reddit",
-  "license": "GPL",
+  "license": "MIT",
   "README": "See README",
   "dependencies": {
+    "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-sass": "^2.2.0",
-    "gulp-sourcemaps": "^1.6.0"
+    "gulp-sourcemaps": "^1.6.0",
+    "run-sequence": "^1.2.1"
   }
 }
